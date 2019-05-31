@@ -396,6 +396,8 @@ header
 
 .slide_left
 {
+	transition: 1;
+
 	position: absolute;
 	padding-top: 35px;
 	width: 66px;
@@ -412,6 +414,16 @@ header
 	background: url(../img/slide_right.png) no-repeat center top;
 	right: 0px;
 	bottom: 0px;
+}
+
+.slide_left:hover
+{
+	background: url(../img/slide_left_red.png) no-repeat center top;
+}
+
+.slide_right:hover
+{
+	background: url(../img/slide_right_red.png) no-repeat center top;
 }
 
 #book
@@ -520,6 +532,12 @@ header
 	color: #a51212;
 }
 
+form .act:hover
+{
+	background: #a51212;
+	color: #d4b877;
+}
+
 form
 {
 	text-align: center;
@@ -613,4 +631,11 @@ footer .act
 {
 	color: #fff;
 	border: 1px solid #fff;
+	text-decoration: none; 
+}
+
+footer .act:hover
+{
+	background: #fff;
+	color: #0e2535;
 }

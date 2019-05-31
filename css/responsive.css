@@ -153,6 +153,11 @@
 		width: 100%;
 	}
 
+	header
+	{
+		height: inherit;
+	}
+	
 	.logo, .up
 	{
 		position: relative;
@@ -211,6 +216,7 @@
 		padding-top: 320px;
 		margin: 0;
 		position: static;
+		overflow: auto;
 	}
 
 	.content .text_1
@@ -220,6 +226,7 @@
 
 	.content .text_2
 	{
+		overflow: auto;
 		height: 120px;
 		position: absolute;
 		width: 100%;
