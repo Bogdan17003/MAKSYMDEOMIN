@@ -1,0 +1,317 @@
+@media screen and (min-width: 1024px)
+{
+	.content .text_2
+	{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 1024px)
+{
+	h2
+	{
+		padding-top: 80px;
+		padding-bottom: 60px;
+	}
+
+
+	article
+	{
+		width: 90%;
+	}
+
+	.logo
+	{
+		font-size: 30px;
+	}
+
+	.social li
+	{
+	margin-right: 10px;
+	}
+
+	.photos
+	{
+		width: 100%;
+		margin: 0;
+		left: 0;
+		top: 0;
+	}
+	
+	.HeadImg
+	{
+		width: 50%;	
+	}
+
+	.content .text
+	{
+		width: 45%;
+	}
+	
+	.icons .images
+	{
+		float: none;
+		width: 100%;
+	}
+	
+	.icons .two, .icons .three
+	{
+		margin: 0;
+	}
+
+	.icons_text_1, .icons_text_2, .icons_text_3  
+	{
+		width: 100%;
+	}
+	
+	.but
+	{
+		margin: 0;
+		padding-bottom: 150px;
+	}
+
+	#book
+	{
+		height: 1420px;
+	}
+
+	.Img
+	{
+		position: static;
+		width: 100%;
+	}
+
+	#book .text
+	{
+		margin-top: 40px;
+		position: static;
+		width: 100%;
+	}
+	
+	#Lessons .icons .one
+	{
+		float: none;
+		width: 100%;
+		margin: 0px;
+		margin-bottom: 50px;
+	}
+
+	#Lessons .icons .one:nth-child(1)
+	{
+		margin-bottom: 50px;
+	}
+
+	.cell
+	{
+		display: block;
+		width: 70%;
+		margin: 0px auto 20px auto;
+	}
+
+	form
+	{
+		margin-top: 0px;
+	}
+	
+	#Events
+	{
+		padding-bottom: 60px;
+	}
+
+	.event
+	{
+		margin: 0px;
+	}
+
+	.event .container
+	{
+		float: none;
+		margin: 0px auto;
+		margin-bottom: 50px;
+	}
+
+	.event .container:nth-child(1)
+	{
+		margin: 0px auto;
+		margin-bottom: 50px;
+	}
+}
+
+@media screen and (max-width: 768px)
+{
+	
+	h2
+	{
+		padding-top: 80px;
+		padding-bottom: 60px;
+		padding-left: 0;
+		text-align: center;
+	}
+
+	article
+	{
+		width: 100%;
+	}
+
+	.logo, .up
+	{
+		position: relative;
+		top: 0px;
+		margin: 0;
+	}
+
+	.logo
+	{
+		width: 100%;
+		font-size: 25px;
+		text-align: center;
+	}
+
+	.up
+	{
+		font-size: 30px;
+		margin-top: 10px;
+		padding-left: 20px;
+	}
+
+	.reg
+	{
+		right: 0px;
+		margin: 7px 0 0 60px;
+		font-size: 20px;
+	}
+	
+	.down
+	{
+		height: 7%;
+	}
+
+	.social li:nth-child(5)
+	{
+		margin-right: 0px;
+	}
+
+	.menu
+	{
+		font-size: 10px;
+		position: static;
+		margin: 0;
+		padding: 10px 0px 0px 3%;
+		text-align: center;
+	}
+
+	.menu li
+	{
+		margin-right: 10px;
+	}
+	
+	.HeadImg
+	{
+		width: 100%;
+		padding-top: 320px;
+		margin: 0;
+		position: static;
+	}
+
+	.content .text_1
+	{
+		display: none;
+	}
+
+	.content .text_2
+	{
+		height: 120px;
+		position: absolute;
+		width: 100%;
+		text-align: center;
+		bottom: 0px;
+		color: #d4b877;
+	}
+	
+	.content .text_2 h3
+	{
+		font-size: 20px;
+	}
+
+	.button
+	{
+		margin: 0;
+		left: 0;
+		width: 100%;
+		padding: 20px;
+	}
+
+	.content .upper
+	{
+		margin: 0;
+	}
+
+	.content .text_2 p
+	{
+		font: 12px/25px 'Roboto Slab';
+	}
+
+	.hide
+	{
+		display: none;
+	}
+
+	.icons_text_1
+	{
+		height: 290px;
+	}
+
+	.icons_text_2
+	{
+		height: 250px;
+	}
+
+	.icons_text_3
+	{
+		height: 260px;
+	}
+
+	.but
+	{
+		padding: 0;
+	}
+
+	#book
+	{
+		height: 1282px;
+	}
+	
+	.Img
+	{
+		width: 100%;
+	}
+
+	.explain
+	{
+		width: 100%;
+	}
+
+	footer .content
+	{
+		padding: 0;
+	}
+
+	footer .content span
+	{
+		margin: 0;
+		display: block;
+		padding-top:12px;
+	}
+	
+	footer .act
+	{
+		margin-top: 12px;
+	}
+
+	#Events
+	{
+		padding: 0;
+	}
+
+}
+
